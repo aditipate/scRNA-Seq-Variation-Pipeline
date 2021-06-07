@@ -25,4 +25,3 @@ testmapReads.runCellRanger_test_SAN()
 testmapReads.runCellRanger_test_AVN()
 testmapReads.runCellRanger_test_LPF()
 testmapReads.runCellRanger_test_RPF()
-

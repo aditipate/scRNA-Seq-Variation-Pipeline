@@ -50,4 +50,3 @@ def runCellRanger_test_LPF():
     transcriptome = current_path + '/mouse_genome/refdata-gex-mm10-2020-A'       #path to mouse genome
     cellranger_cmd = 'cellranger count --id=' + id + ' --fastqs=' + fastqs_path + ' --sample=' + 'RPF' + ' --transcriptome=' + transcriptome
     os.system(cellranger_cmd)
-

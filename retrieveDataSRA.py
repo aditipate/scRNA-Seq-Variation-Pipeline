@@ -41,4 +41,3 @@ def getRefGenome():
 
     os.chdir(current_path)                                                       #change to current directory
 
-
