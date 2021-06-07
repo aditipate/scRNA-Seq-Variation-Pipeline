@@ -1,6 +1,7 @@
 #set up environment
 import retrieveDataGEO
 import reformatDataGEO
+import clusteringAnalysis
 
 #GEO Accession  -- CCS Component -- SRA run (raw data)
 #GSM3885058     -- Zone I: SAN region -- SRR9290711
@@ -16,4 +17,4 @@ retrieveDataGEO.getGEOdata()
 reformatDataGEO.moveGEO()
 
 #perform clustering and other statistical analyses using Seurat
-#run lines in Clustering.R in Rstudio to create outputs
+clusteringAnalysis.performClustering()

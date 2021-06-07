@@ -11,7 +11,7 @@ def performClustering():
     seurat_cmd = 'Rscript Clustering.R'
     os.system(seurat_cmd)
 
-    print("Pipeline has finished running! Open 'suerat_ouput' folder to view significant result files")
+    print("Pipeline is done running! Open 'seurat_ouput' folder to view significant results!")
     print(' _  _')
     print('(o)(o)--. ')
     print(' \../ (  )')
