@@ -20,4 +20,8 @@ retrieveDataSRA.getRefGenome()
 reformatDataSRA.renameFastqs(SRRs)
 
 #map sample reads using Cell Ranger and create Cell Ranger output folder
-mapReads.runCellRanger(SRRs)
+mapReads.runCellRanger_SNGRuns()
+mapReads.runCellRanger_SAN()
+mapReads.runCellRanger_AVN()
+mapReads.runCellRanger_LPF()
+mapReads.runCellRanger_RPF()
