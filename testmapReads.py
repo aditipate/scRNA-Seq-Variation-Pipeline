@@ -51,4 +51,3 @@ def runCellRanger_test_LPF():
     cellranger_cmd = 'cellranger count --id=' + id + ' --fastqs=' + fastqs_path + ' --sample=' + 'RPF' + ' --transcriptome=' + transcriptome
     os.system(cellranger_cmd)
 
-

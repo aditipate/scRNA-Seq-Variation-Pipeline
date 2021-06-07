@@ -58,4 +58,3 @@ def renameFastqs(SRRs):
         os.system(rename_fastq3)
 
     os.chdir(current_path)                                                     #change to current directory
-

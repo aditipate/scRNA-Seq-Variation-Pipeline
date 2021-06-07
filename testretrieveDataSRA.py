@@ -49,3 +49,4 @@ def getRefGenome():
     os.system(decompress_genome)
 
     os.chdir(current_path)                                                       #change to current directory
+
