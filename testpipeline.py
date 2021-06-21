@@ -2,6 +2,7 @@
 import testretrieveDataSRA
 import testreformatDataSRA
 import testmapReads
+import testclusteringAnalysis
 
 #GEO Accession  -- CCS Component -- SRA run (raw data)
 #GSM3885058     -- Zone I: SAN region -- SRR9290711/2
@@ -14,7 +15,6 @@ testSRRs = ['SRR9290711', 'SRR9290712', 'SRR9290713', 'SRR9290714', 'SRR9290715'
 
 #retrieve mouse heart data from NCBI's SRA + retrieve mouse reference genome
 testretrieveDataSRA.getSRAdata(testSRRs)
-testretrieveDataSRA.getRefGenome()
 
 #rename fastq files to Cell Ranger compatabile format
 testreformatDataSRA.renameFastqs(testSRRs)
@@ -25,3 +25,6 @@ testmapReads.runCellRanger_test_SAN()
 testmapReads.runCellRanger_test_AVN()
 testmapReads.runCellRanger_test_LPF()
 testmapReads.runCellRanger_test_RPF()
+
+#perform clustering and other statistical analyses using Seurat
+testclusteringAnalysis.performClustering()
