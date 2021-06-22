@@ -20,7 +20,7 @@ def performClusteringFiltered():
 
 def performClusteringUnfiltered():
 
-    seurat_cmd = 'Rscript testClusteringUnFiltered.R'
+    seurat_cmd = 'Rscript testClusteringUnfiltered.R'
     os.system(seurat_cmd)
 
     print("Pipeline is done running! Open 'seurat_ouput' folder to view significant results!")
