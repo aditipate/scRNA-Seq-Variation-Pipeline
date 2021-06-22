@@ -27,4 +27,5 @@ testmapReads.runCellRanger_test_LPF()
 testmapReads.runCellRanger_test_RPF()
 
 #perform clustering and other statistical analyses using Seurat
-testclusteringAnalysis.performClustering()
+testclusteringAnalysis.performClusteringFiltered()
+testclusteringAnalysis.performClusteringUnfiltered()
